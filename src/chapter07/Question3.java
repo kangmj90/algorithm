@@ -1,5 +1,6 @@
 package chapter07;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -26,7 +27,7 @@ public class Question3 {
         arr = new int[]{19, 15, 10, 17};
 
         int start = 0;
-        int end = 2000000000;
+        int end = arr[n - 1];
 
         int result = 0;
 
